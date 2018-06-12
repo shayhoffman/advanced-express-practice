@@ -2,35 +2,35 @@
 
 # Windows users - Make sure you remove single quotes from the package.json
 # Setup
-* fork, clone, npm install, npm start
-* a web page has been created for you so don't worry about that
-* your job is to build the server 
-* the only code you need to change is in the `/server` folder
+//* fork, clone, npm install, npm start
+//* a web page has been created for you so don't worry about that
+//* your job is to build the server 
+//* the only code you need to change is in the `/server` folder
 
 
 
 # Part 1 - Server
 
 ### server/index.js
-* This is the starting point of the server, put all code here
-* Make your app listen to port 3001
+//* This is the starting point of the server, put all code here
+//* Make your app listen to port 3001
 
 ### Body
-* Add body parser middleware to express
+//* Add body parser middleware to express
 
 ### Create express routes to get all things
-* Add .get() routes for /contacts, /vehicles, /comments, /products
-* response.json() the appropriate array
+//* Add .get() routes for /contacts, /vehicles, /comments, /products
+//* response.json() the appropriate array
 
 ### Create express routes to get one thing
-* Add .get() routes for /contacts/:id, /vehicles/:id, /comments/:id, /products/:id
-* add a path variable for id
-* use the params.id to .find() the item from the appropriate array
-* response.json() the item found
+//* Add .get() routes for /contacts/:id, /vehicles/:id, /comments/:id, /products/:id
+//* add a path variable for id
+/* use the params.id to .find() the item from the appropriate array
+//* response.json() the item found
 
 ### Create express routes to create one thing
-* Add .post() routes for /contacts, /vehicles, /comments, /products
-* Add the information from the body to the appropriate array
+/* Add .post() routes for /contacts, /vehicles, /comments, /products
+//* Add the information from the body to the appropriate array
 
 Once completed, the web page should be able to list out the information, create new information and view one item of the information.
 
