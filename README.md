@@ -36,16 +36,16 @@ Once completed, the web page should be able to list out the information, create 
 
 
 # Part 2 - Routes
-* Create route files
-* Organize the routes for /contacts, /vehicles, /comments, /products using express Router
-* Import and use the Routers in index.js
+//* Create route files
+//* Organize the routes for /contacts, /vehicles, /comments, /products using express Router
+//* Import and use the Routers in index.js
 
 # Part 3 - Controllers
-* Create controller files 
-* Import the arrays into the controller
-* Take the code from the routes and put it into the controller
-* create functions for list, show and create
-* Import and use the controller functions in the appropiate Router
+//* Create controller files 
+//* Import the arrays into the controller
+//* Take the code from the routes and put it into the controller
+//* create functions for list, show and create
+//* Import and use the controller functions in the appropiate Router
 
 # Part 4 - Database
 * In server/index.js, import and use mongoose. Connect to a database "advanced-express-practice" 
