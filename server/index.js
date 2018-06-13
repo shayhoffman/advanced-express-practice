@@ -1,9 +1,11 @@
 const express = require("express");
+const mongoose = require("mongoose");
+mongoose.Promise = global.Promise;
+mongoose.connect("mongodb://shayhoffman:nalarocks1@ds257640.mlab.com:57640/aca-express-practice-4");
 const app = express();
 const bodyParser = require("body-parser");
 app.use(bodyParser.json());
-const mongoose = require("mongoose");
-mongoose.Promise = global.Promise;
+
 
 
 let ContactRoutes = require("./routes/ContactRoutes");
